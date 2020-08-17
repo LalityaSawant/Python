@@ -1,0 +1,20 @@
+<h1>Your Day</h1>
+
+<table>
+    <tr></tr>
+    <ul>
+        {% for todo_item in all_items %}
+        <tr><li style="list-style:none">
+            <td>{{ todo_item.task_start_time }}</td>
+            <td>{{ todo_item.content }}</td>
+            <td>{{ todo_item.status }}</td>
+            <td>{{ todo_item.category }}</td>
+        </li>
+        </tr>
+        {% endfor %}
+    </ul>
+    <tr></tr>
+</table>
+<form  action="/myManagedDay/" style="display: inline;" method = "post">{% csrf_token %}
+    <input type ="submit" value = " My Managed Day ">
+</form>

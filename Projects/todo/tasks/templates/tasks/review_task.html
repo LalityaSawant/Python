@@ -1,0 +1,117 @@
+{% extends "tasks/base.html" %}
+{% block content %}
+{% csrf_token %}
+    <h3>Lets start the review</h3>
+    {% for task in tasks %}
+        <div>
+            <div style="float:left; width:250px">
+                <span> {{ task.title }} </span>
+            </div>
+            <div style="float:left; width:250px">
+                    <p class="small">Is this task actionable ?</p>
+                    <input type="radio" name="{{ task }}actionable" value="actionable_yes"> Yes
+                    <input type="radio" name="{{ task }}actionable" value="actionable_no"> No
+                    <div class="actionableNo" style="display:none">
+
+                            <p class="small">Can this belong to your wish list? </p>
+                            <input type="radio" name="{{ task }}wishlist" value="wishlist_yes"> Yes
+                            <input type="radio" name="{{ task }}wishlist" value="wishlist_no" > No
+                            <div style="display:none">
+                                <p>Is this a reference?</p>
+                                <input type="radio" name="{{ task }}reference" value="ref_yes"> Yes
+                                <input type="radio" name="{{ task }}reference" value="ref_no" > No
+                                <div style="display:none">
+                                    <p>can we delete this task ?</p>
+                                    <input type="radio" name="{{ task }}delete" value="del_yes"> Yes
+                                    <input type="radio" name="{{ task }}delete" value="del_no" > No
+                                </div>
+                            </div>
+
+                    </div>
+                    <div class="actionableYes" style="display:none">
+
+                            <p class="small">what best describes your task: </p>
+                            <input type="radio" name="{{ task }}describe" value="task_reference"> Project
+                            <input type="radio" name="{{ task }}describe" value="task_sometimemaybe" > SmallJob
+                            <input type="radio" name="{{ task }}describe" value="task_delete"> CanDelegate
+
+                    </div>
+            </div>
+        </div>
+
+
+        {% block javascript %}
+        <script type="text/javascript">
+
+                $(document).on('click','input[name="{{ task }}actionable"]',function(e){
+                if($(this).prop('checked')){
+
+                if ($(this).val()=='actionable_no' && $(this).val()!=''){
+
+                 $(this).siblings('div').first().css("display","block");
+
+
+                }
+                else{
+
+                  $(this).siblings('div').first().next().css("display","block");
+                 }
+                }
+                });
+
+                $(document).on('click','input[name="{{ task }}wishlist"]',function(e){
+                if($(this).prop('checked')){
+
+                if ($(this).val()=='wishlist_no' && $(this).val()!=''){
+
+                $(this).siblings('div').first().css("display","block");
+
+                }
+                else{
+
+                  $(this).siblings('div').first().next().css("display","block");
+                 }
+                }
+                });
+
+                $(document).on('click','input[name="{{ task }}reference"]',function(e){
+                if($(this).prop('checked')){
+
+                if ($(this).val()=='ref_no' && $(this).val()!=''){
+
+                $(this).siblings('div').first().css("display","block");
+
+                }
+                else{
+
+                  $(this).siblings('div').first().next().css("display","block");
+                 }
+                }
+                });
+
+                $(document).on('click','input[name="{{ task }}delete"]',function(e){
+                if($(this).prop('checked')){
+
+                if ($(this).val()=='del_no' && $(this).val()!=''){
+
+                <!--$(this).siblings('div').first().css("display","block");-->
+
+                }
+                else{
+
+
+                   $.ajax({
+                    type: 'POST',
+                    url: "{% url 'delete_task' task.id %}",
+                    data: { csrfmiddlewaretoken: '{{ csrf_token }}'},
+                    success: function callback(response){
+                              window.location.href= '{% url 'review_task' %}';
+                            }
+                        });
+                 }
+                }
+                });
+         </script>
+        {% endblock javascript %}
+    {%endfor%}
+{% endblock content %}

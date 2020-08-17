@@ -1,0 +1,6 @@
+PreRequisites:
+
+pip install beautifulsoup4
+pip install lxml
+pip install html5lib - > we are using lxml
+pip install requests

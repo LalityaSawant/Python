@@ -1,0 +1,11 @@
+1 into 2 is 2
+2 into 2 is 4
+3 into 2 is 6
+4 into 2 is 8
+5 into 2 is 10
+6 into 2 is 12
+7 into 2 is 14
+8 into 2 is 16
+9 into 2 is 18
+10 into 2 is 20
+11 into 2 is 22

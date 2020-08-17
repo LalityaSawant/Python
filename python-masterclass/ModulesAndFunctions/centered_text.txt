@@ -1,0 +1,3 @@
+                                                                   print this with tab to next 	                                                                       first->second->3->4->
+                                                                         first second 3 4 
+                                                       more I write the more it prints, but still in center 

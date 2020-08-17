@@ -1,0 +1,22 @@
+{% extends "thoughts/base.html" %}
+{% block content %}
+<!--<h2><a class="account-heading" >Thoughts</a></h2>-->
+    {% for thought in thoughts %}
+       <!-- <h1> {{ thought.task }} </h1>
+        <p>Is a part of {{ thought.task_type }} bucket to be completed by {{ thought.eta }}</p>
+        -->
+        <article class="media content-section">
+            <div class="media-body">
+                <div class="article-metadata">
+                    <a class="article-title" href="#">{{ thought.task }}</a>
+                    <small class="mr-2" href="#">{{ thought.task_type }}</small>
+                    <small class="text-muted">{{ thought.created_date|date:"F d, Y" }}</small>
+                    <small class="mr-2" href="#">{{ thought.created_by }}</small>
+                    <p class="article-content">{{ thought.task_description }}</p>
+                </div>
+               <!-- <h2><a class="article-title" href="#">{{ thought.task }}</a></h2> -->
+                <!-- <p class="article-content">{{ post.content }}</p> -->
+            </div>
+        </article>
+    {% endfor %}
+{% endblock content %}

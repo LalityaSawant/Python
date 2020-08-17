@@ -1,0 +1,31 @@
+<h1>Edit Below</h1>
+<table>
+<ul>
+    <tr>
+        <li style="list-style:none">
+        <form action="/updateTodo/{{ item.id }}/" method = "post">{% csrf_token %}
+        <td>DateTime: {{ item.task_start_time }}</td>
+        <td>Task: <input type="text" name="content" value="{{ item.content }}"></td>
+        <td>Status: <select name = "status">
+            <option value="{{ item.status }}" selected>{{ item.status }}</option>
+            <option value="Pending">Pending</option>
+            <option value="Inprogress">Inprogress</option>
+            <option value="Completed">Completed</option>
+            <option value="Cancelled">Cancelled</option>
+        </select></td>
+        <td>Category: <select name = "category">
+            <option value="{{ item.category }}" selected>{{ item.category }}</option>
+            <option value="Health">Health</option>
+            <option value="Office">Office</option>
+            <option value="Study">Study</option>
+            <option value="Career">Others</option>
+        </select></td>
+        <td><input type ="submit" value = " Update "></td>
+        </form>
+            <td><form  action="/deleteTodo/{{ item.id }}/" style="display: inline;" method = "post">{% csrf_token %}
+                <input type ="submit" value = " Delete ">
+            </form></td>
+    </li>
+    </tr>
+</ul>
+</table>

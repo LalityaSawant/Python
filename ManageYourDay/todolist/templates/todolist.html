@@ -1,0 +1,49 @@
+<h1>Manage your Day</h1>
+
+<table>
+    <tr>
+<form action="/addTodo/" method = "post">{% csrf_token %}
+    <td>Edit Item</td>
+    <td>Task Start (date and time): <input type="datetime-local" name="starttime"></td>
+    <td>Task <input type ="text" name = "content"></td>
+    <td>Status <select name = "status">
+        <option value="Pending">Pending</option>
+        <option value="Inprogress">Inprogress</option>
+        <option value="Completed">Completed</option>
+        <option value="Cancelled">Cancelled</option>
+    </select></td>
+    <td>Category <select name = "category">
+        <option value="Health">Health</option>
+        <option value="Office">Office</option>
+        <option value="Study">Study</option>
+        <option value="Career">Others</option>
+    </select></td>
+    <td><input type ="submit" value = " Add "></td>
+</form>
+    </tr>
+    <tr></tr>
+<ul>
+   {% for todo_item in all_items %}
+    <tr><li style="list-style:none">
+        <td><form  action="/editTodo/{{todo_item.id}}/" style="display: inline;" method = "post">{% csrf_token %}
+            <input type="submit" value=" Edit " >
+        </form></td>
+        <td>{{ todo_item.task_start_time }}</td>
+        <td>{{ todo_item.content }}</td>
+        <td>{{ todo_item.status }}</td>
+        <td>{{ todo_item.category }}</td>
+        <td><form  action="/deleteTodo/{{todo_item.id}}/" style="display: inline;" method = "post">{% csrf_token %}
+            <input type ="submit" value = " Delete ">
+        </form></td>
+    </li>
+    </tr>
+    {% endfor %}
+</ul>
+    <tr></tr>
+</table>
+<form  action="/myManagedDay/" style="display: inline;" method = "post">{% csrf_token %}
+    <input type ="submit" value = " My Managed Day ">
+</form>
+<form  action="/myHome/" style="display: inline;" method = "post">{% csrf_token %}
+    <input type ="submit" value = " home ">
+</form>
