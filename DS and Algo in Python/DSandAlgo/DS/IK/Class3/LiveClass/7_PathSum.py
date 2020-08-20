@@ -46,7 +46,7 @@ class Node:
             if node.right is not None:
                 dfs(node.right, target-node.val)
 
-        dfs(root,sum)
+        dfs(root, sum)
         return self.result[0]
 
 root = Node(3)
