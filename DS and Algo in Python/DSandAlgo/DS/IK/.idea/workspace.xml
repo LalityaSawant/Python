@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaf60a55-7942-41db-8d4e-fe307e7ec739" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Class3/LiveClass/3_BinaryTreeLevelOrderTraversal_II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class3/LiveClass/4_BinaryTreeRightSideView.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class3/LiveClass/5_BFSZigzac.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class3/LiveClass/6_DFSTreeTravarsel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class3/LiveClass/6_PathSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class3/LiveClass/8_PathSumII.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Class3/LiveClass/1_BinaryTreeLevelOrderTraversal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="53" column="21" lean-forward="true" selection-start-line="48" selection-end-line="53" selection-end-column="21" />
+            <state relative-caret-position="214">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -32,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Class3/LiveClass/2_NarrayLevelTravarsal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="266">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -41,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Class3/LiveClass/3_BinaryTreeLevelOrderTraversal_II.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
+            <state relative-caret-position="442">
               <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
@@ -50,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Class3/LiveClass/4_BinaryTreeRightSideView.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="157">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -59,17 +55,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Class3/LiveClass/6_DFSTreeTravarsel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+            <state relative-caret-position="931">
+              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Class3/LiveClass/7_PathSum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Class3/LiveClass/8_PathSumII.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Class3/LiveClass/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-242">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Class3/LiveClass/6_PathSum.py">
+        <entry file="file://$PROJECT_DIR$/Class3/PreClass/2_TreeImplimentation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="53" column="15" lean-forward="true" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+            <state relative-caret-position="123">
+              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -78,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/Class3/LiveClass/5_BFSZigzac.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="950">
-              <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -105,6 +128,9 @@
         <option value="$PROJECT_DIR$/Class3/LiveClass/5_BFSZigzac.py" />
         <option value="$PROJECT_DIR$/Class3/LiveClass/6_DFSTreeTravarsel.py" />
         <option value="$PROJECT_DIR$/Class3/LiveClass/6_PathSum.py" />
+        <option value="$PROJECT_DIR$/Class3/LiveClass/7_PathSum.py" />
+        <option value="$PROJECT_DIR$/Class3/LiveClass/8_PathSumII.py" />
+        <option value="$PROJECT_DIR$/Class3/LiveClass/test.py" />
       </list>
     </option>
   </component>
@@ -120,7 +146,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,14 +164,21 @@
               <item name="Class3" type="462c0819:PsiDirectoryNode" />
               <item name="LiveClass" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="IK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IK" type="462c0819:PsiDirectoryNode" />
+              <item name="Class3" type="462c0819:PsiDirectoryNode" />
+              <item name="PreClass" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597911979948" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597988215183" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -165,8 +197,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.6_PathSum">
-    <configuration name="1_BinaryTreeLevelOrderTraversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.8_PathSumII">
+    <configuration name="2_NarrayLevelTravarsal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,7 +210,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class3/LiveClass/1_BinaryTreeLevelOrderTraversal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class3/LiveClass/2_NarrayLevelTravarsal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,7 +219,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5_BFSZigzac" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="3_BinaryTreeLevelOrderTraversal_II" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="IK" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,7 +231,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class3/LiveClass/5_BFSZigzac.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class3/LiveClass/3_BinaryTreeLevelOrderTraversal_II.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -250,12 +282,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="8_PathSumII" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IK" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class3/LiveClass" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class3/LiveClass/8_PathSumII.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.8_PathSumII" />
+        <item itemvalue="Python.2_NarrayLevelTravarsal" />
+        <item itemvalue="Python.3_BinaryTreeLevelOrderTraversal_II" />
         <item itemvalue="Python.6_PathSum" />
         <item itemvalue="Python.6_DFSTreeTravarsel" />
-        <item itemvalue="Python.5_BFSZigzac" />
-        <item itemvalue="Python.1_BinaryTreeLevelOrderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -270,13 +324,21 @@
       <option name="presentableId" value="Default" />
       <updated>1597813367743</updated>
     </task>
+    <task id="LOCAL-00001" summary="Testing">
+      <created>1597961621988</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597961621988</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536855" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -285,14 +347,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32969433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969433" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32969433" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -303,53 +365,78 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Class3/LiveClass/2_NarrayLevelTravarsal.py">
+    <entry file="file://$PROJECT_DIR$/Class3/LiveClass/6_DFSTreeTravarsel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Class3/LiveClass/3_BinaryTreeLevelOrderTraversal_II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="931">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Class3/LiveClass/5_BFSZigzac.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
-          <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class3/LiveClass/7_PathSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class3/LiveClass/2_NarrayLevelTravarsal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Class3/LiveClass/4_BinaryTreeRightSideView.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="157">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Class3/LiveClass/6_DFSTreeTravarsel.py">
+    <entry file="file://$PROJECT_DIR$/Class3/LiveClass/3_BinaryTreeLevelOrderTraversal_II.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="49" column="14" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        <state relative-caret-position="442">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Class3/LiveClass/1_BinaryTreeLevelOrderTraversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="53" column="21" lean-forward="true" selection-start-line="48" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="214">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Class3/LiveClass/6_PathSum.py">
+    <entry file="file://$PROJECT_DIR$/Class3/LiveClass/8_PathSumII.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="53" column="15" lean-forward="true" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+        <state relative-caret-position="404">
+          <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class3/LiveClass/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class3/PreClass/2_TreeImplimentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="32" />
         </state>
       </provider>
     </entry>
